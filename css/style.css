@@ -1,0 +1,85 @@
+/* container sizing & positioning */
+
+#wrap {
+  margin:  0 auto;
+  width: 80%;
+  height: 500px;
+  background-color: #f5f5f5;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 5px 5px 50px 0px #ccc;
+  text-align: center;
+}
+
+#parks {
+  background-color: #191919;
+  width: 10%;
+  height: 500px;
+  float: left;
+  font-family: sans-serif;
+}
+#sections {
+  background-color: #323232;
+  width: 10%;
+  float: left;
+  height: 500px;
+  font-family: sans-serif;
+}
+#info {
+  float: left;
+  background-color: EDF4ED;
+  width: 79.69%;
+  height: 500px;
+}
+
+/* navigation styles */
+
+li {
+  list-style: none;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+ul {
+  padding-top: 50px;
+  font-size: .7rem;
+  color: white;
+  padding-left: 0px;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  margin-top: 60px;
+}
+button:focus {
+  outline: 0;
+}
+button:hover {
+  border: 1px solid white;
+}
+
+/* functional classes */
+
+.display-none {
+  display: none;
+}
+li:hover {
+  color: green;
+}
+
+
+/* home page styles */
+
+#home {
+  margin-top: 100px;
+  color: darkgray;
+
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
